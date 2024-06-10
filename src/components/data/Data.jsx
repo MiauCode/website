@@ -103,7 +103,7 @@ export const educationItems = [
     icon: "school",
   },
   {
-    title: "Bachelor's and Master's of Computer Science, 2st year",
+    title: "Bachelor's and Master's of Computer Science, 2nd year",
     subtitle: "Tampere University",
     lore: "I am currently studying at Tampere University doing my bachelor's degree in computer science",
     date: "2023 - 2028",
