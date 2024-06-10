@@ -99,14 +99,14 @@ export const educationItems = [
     title: "High school",
     subtitle: "Lahden Lyseon Lukio",
     lore: "Finished high school on time with main focus on math related courses",
-    date: "2017-2020",
+    date: "2019 - 2022",
     icon: "school",
   },
   {
     title: "Bachelor of computer science, 1st year",
     subtitle: "Tampere university",
     lore: "I am currently studying at Tampere university doing my bachelors degree in computer science",
-    date: "2023-2026",
+    date: "2023 - 2026",
     icon: "school",
   },
   {
