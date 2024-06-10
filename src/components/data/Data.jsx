@@ -78,13 +78,13 @@ export const featuresData = [
     id: 5,
     icon: <MdConnectWithoutContact />,
     title: "Customer Service",
-    des: "Thanks to my customer service roles, I've learned the best ways to satisfy the customers",
+    des: "Thanks to my customer service roles, I've learned the best ways to satisfy the customers.",
   },
   {
     id: 6,
     icon: <FaLanguage />,
     title: "Polyglot",
-    des: "My tongue twists often because I speak five different languages. English, Finnish, Turkish, Russian and Swedish",
+    des: "My tongue twists often because I speak five different languages. English, Finnish, Turkish, Russian and Swedish.",
   },
   {
     id: 7,
@@ -103,19 +103,13 @@ export const educationItems = [
     icon: "school",
   },
   {
-    title: "Bachelor of Computer Science, 1st year",
+    title: "Bachelor's and Master's of Computer Science, 2st year",
     subtitle: "Tampere University",
     lore: "I am currently studying at Tampere University doing my bachelor's degree in computer science",
-    date: "2023 - 2026",
+    date: "2023 - 2028",
     icon: "school",
   },
-  {
-    title: "Master of Computer Science",
-    subtitle: "Tampere University",
-    lore: "I am planning on doing my master's degree in computer science at Tampere University",
-    date: "2026-",
-    icon: "school",
-  },
+
 ];
 
 export const workItems = [
@@ -251,7 +245,7 @@ export const someExperience = [
     id: 14,
     name: "Matlab",
     confidence: 30,
-    where: "Some very basic calculations and operations",
+    where: "Some basic calculations and operations",
   },
   {
     id: 6,
@@ -289,7 +283,7 @@ export const learning = [
   {
     id: 6,
     name: "Java",
-    why: "I am learning java as a part of my current OOP course",
+    why: "I am learning Java as a part of my current OOP course",
   },
 ];
 
@@ -317,7 +311,7 @@ export const certificates = [
     name: "Ulla Tuominen Foundation's contest winners",
     year: 2023,
     description:
-      "Me and a couple of my friends won the contest with our working electronic therapy device",
+      "Me and a few of my classmates won the contest with our working electronic therapy device",
   },
   {
     name: "Multiple different Udemy courses",
