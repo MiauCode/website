@@ -38,16 +38,16 @@ const LeftBanner = () => {
         </div>
         <div className="text-base font-bodyFont tracking-wide max-w-full">
           <p>
-            I am a <b style={{ color: "#55AD9B" }}>computer science student </b>
-            with a passion for everything tech related. Through my {""}
+            I am a <b style={{ color: "#55AD9B" }}>dedicated computer science student </b>
+            with a passion for all things tech. Through my {""}
             <b style={{ color: "#55AD9B" }}>
-              studies, work, and personal projects {""}
+              academic journey, professional experience, and personal projects {""}
             </b>
-            I have gotten used to working with a variety of
+            have equipped me with proficiency in diverse technologies and the ability to
             <b style={{ color: "#55AD9B" }}>
               {" "}
               {""}
-              different technologies, people, and situations
+              effectively collaborate with various teams in dynamic environments.
             </b>
           </p>
         </div>
