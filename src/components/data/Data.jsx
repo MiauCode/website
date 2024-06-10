@@ -78,13 +78,13 @@ export const featuresData = [
     id: 5,
     icon: <MdConnectWithoutContact />,
     title: "Customer Service",
-    des: "Thanks to my customer service roles, I've have learned the best ways to satisfy the customers",
+    des: "Thanks to my customer service roles, I've learned the best ways to satisfy the customers",
   },
   {
     id: 6,
     icon: <FaLanguage />,
     title: "Polyglot",
-    des: "My tongue twist often because of me speaking five different languages. English, finnish, turkish, russian and swedish",
+    des: "My tongue twists often because I speak five different languages. English, Finnish, Turkish, Russian and Swedish",
   },
   {
     id: 7,
@@ -96,23 +96,23 @@ export const featuresData = [
 
 export const educationItems = [
   {
-    title: "High school",
+    title: "High School",
     subtitle: "Lahden Lyseon Lukio",
-    lore: "Finished high school on time with main focus on math related courses",
+    lore: "Finished high school on time with main focus on math-related courses",
     date: "2019 - 2022",
     icon: "school",
   },
   {
-    title: "Bachelor of computer science, 1st year",
-    subtitle: "Tampere university",
-    lore: "I am currently studying at Tampere university doing my bachelors degree in computer science",
+    title: "Bachelor of Computer Science, 1st year",
+    subtitle: "Tampere University",
+    lore: "I am currently studying at Tampere University doing my bachelor's degree in computer science",
     date: "2023 - 2026",
     icon: "school",
   },
   {
-    title: "Master of computer science",
-    subtitle: "Tampere university",
-    lore: "I am planning on doing my masters degree in computer science at Tampere university",
+    title: "Master of Computer Science",
+    subtitle: "Tampere University",
+    lore: "I am planning on doing my master's degree in computer science at Tampere University",
     date: "2026-",
     icon: "school",
   },
@@ -129,7 +129,7 @@ export const workItems = [
   {
     workPlace: "Tripla Bar",
     title: "Bartender, Bar",
-    subtitle: "I'm good at making coctails",
+    subtitle: "I'm good at making cocktails",
     date: "2020 - 2022",
     icon: "FaWineGlassAlt",
   },
@@ -237,7 +237,7 @@ export const someExperience = [
   },
   {
     id: 7,
-    name: "Android studio",
+    name: "Android Studio",
     confidence: 50,
     where: "During an OOP course at school",
   },
@@ -257,7 +257,7 @@ export const someExperience = [
     id: 6,
     name: "C++",
     confidence: 50,
-    where: "I have used c++ for embedded systems projects",
+    where: "I have used C++ for embedded systems projects",
   },
 ];
 
@@ -311,19 +311,19 @@ export const certificates = [
     name: "Cyber security base",
     year: 2024,
     description:
-      "An open cyber security course made by the university of Helsinki",
+      "An open cyber security course made by the University of Helsinki",
   },
   {
-    name: "Ulla Tuominen foundation's contest winners",
+    name: "Ulla Tuominen Foundation's contest winners",
     year: 2023,
     description:
-      "Me and couple of my friends won the contest with our working electronic therapy device",
+      "Me and a couple of my friends won the contest with our working electronic therapy device",
   },
   {
     name: "Multiple different Udemy courses",
     year: 2023,
     description:
-      "I have completed and studied multiple different udemy courses",
+      "I have completed and studied multiple different Udemy courses",
   },
 ];
 
@@ -350,14 +350,14 @@ export const achievements = [
     name: "TiTe overalls team treasurer",
     year: 2024,
     description:
-      "I was chosen as the treasurer of the overall team for the computer science students of Tampere university",
+      "I was chosen as the treasurer of the overall team for the computer science students of Tampere University",
   },
 ];
 
 export const projects = [
   /*{
     title: "React review app",
-    desc: "An app that lets the user add, review, search and edit books. The app is build around a carousel type of menu where the books are displayed. The app utilizes local storage to save the books and their reviews.",
+    desc: "An app that lets the user add, review, search and edit books. The app is built around a carousel menu where the books are displayed. The app utilizes local storage to save the books and their reviews.",
     tags: [
       {
         name: "ReactJs",
