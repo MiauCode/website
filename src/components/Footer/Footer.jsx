@@ -8,7 +8,7 @@ const Footer = () => {
       </p>
       <a
         className="block text-center text-gray-500 text-base py-2"
-        href="https://github.com/temevh/reactCV"
+        href="https://github.com/MiauCode/website/tree/main"
       >
         Click{" "}
         <b style={{ color: "#ff8439" }}>

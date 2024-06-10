@@ -29,7 +29,7 @@ const Skills = () => {
   return (
     <section id="skills" className="w-full py-10 border-b-[1px] border-b-black">
       <Title title="Skills" des="What I know" />
-      <p className="italic font-md -mt-8 text-slate-300/50 text-[#55ad9b]">
+      <p className="italic font-md -mt-8 text-[#55ad9b]">
         Psst! {isSmallViewport ? "Click" : "Hover"} for more info
       </p>
       <div
