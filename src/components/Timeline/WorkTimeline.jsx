@@ -50,10 +50,9 @@ const WorkTimeLine = () => {
                   {item.icon == "FaWineGlassAlt" ? <FaWineGlassAlt /> : null}
                   {item.icon == "FaBriefcase" ? <FaBriefcase /> : null}
                   {item.icon == "FaTruck" ? <FaTruck /> : null}
-                  {item.icon == "FaNetworkWired" ? <FaNetworkWired /> : null}
-                  {item.icon == "FaLaptop" ? <FaLaptop /> : null}
+                  
                 </TimelineDot>
-                {item.workPlace === "Teemun Tötterö" ? null : (
+                {item.workPlace === "Dalaman" ? null : (
                   <TimelineConnector />
                 )}
               </TimelineSeparator>
@@ -66,6 +65,7 @@ const WorkTimeLine = () => {
                   {item.workPlace}
                 </p>
                 <p className="text-lg">{item.subtitle}</p>
+                
               </TimelineContent>
             </TimelineItem>
           ))}

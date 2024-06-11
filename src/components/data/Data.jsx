@@ -214,7 +214,7 @@ export const someExperience = [
   {
     id: 0,
     name: "Python",
-    confidence: 40,
+    confidence: 60,
     where: "On a few school courses and some personal projects",
   },
   {
@@ -226,7 +226,7 @@ export const someExperience = [
   {
     id: 5,
     name: "Tailwind",
-    confidence: 40,
+    confidence: 30,
     where: "Creating this website",
   },
   {
@@ -259,19 +259,19 @@ export const learning = [
   {
     id: 2,
     name: "Tailwind",
-    skill: 40,
+    skill: 30,
     why: "I want to learn how to create stylish websites",
   },
   {
     id: 3,
     name: "React",
-    skill: 60,
+    skill: 30,
     why: "I want to learn how to create more complex websites and apps",
   },
   {
     id: 4,
     name: "Node",
-    skill: 60,
+    skill: 30,
     why: "I want to learn how to create more complex websites and apps",
   },
 
@@ -323,22 +323,16 @@ export const certificates = [
 
 export const achievements = [
   {
-    name: "Edufutura hackathon winners",
-    year: 2023,
-    description:
-      "Me and my group won the hackathon where the task was to design a futuristic school",
-  },
-  {
     name: "Platinum in Valorant",
     year: 2023,
     description:
       "My peak rank in Valorant. Very proud of myself",
   },
   {
-    name: "100kg bench",
+    name: "101kg bench",
     year: 2023,
     description:
-      "I finally managed to bench press 100kg near the end of 2023😎",
+      "I finally managed to bench press 101kg near the end of 2023😎",
   },
   {
     name: "TiTe overalls team treasurer",
