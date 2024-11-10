@@ -1,5 +1,5 @@
 import React from "react";
-import profilePic from "../../assets/images/TITECV-4-3-2392.jpg";
+import profilePic from "../../assets/images/TITECV-2392.jpg";
 
 const RightBanner = () => {
   return (
