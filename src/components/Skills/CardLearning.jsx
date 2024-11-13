@@ -20,12 +20,18 @@ import androidstudio from "../../assets/icons/androidstudio.png";
 import docker from "../../assets/icons/docker.png";
 import tailwind from "../../assets/icons/tailwind.png";
 import redux from "../../assets/icons/redux.png";
+import linux from "../../assets/icons/linux.png";
 
 import rust from "../../assets/icons/rust.png";
 import deno from "../../assets/icons/deno.png";
 import next from "../../assets/icons/next.png";
-
+import atmel from "../../assets/icons/atmel.png";
+import jest from "../../assets/icons/jest.png";
+import matlab from "../../assets/icons/matlab.png";
 import ceepeepee from "../../assets/icons/ceepeepee.png";
+import api from "../../assets/icons/api.png";
+import ml from "../../assets/icons/ml.png"
+import circuit from "../../assets/icons/circuit-board.png"
 
 const skillIconMap = {
   Python: python,
@@ -40,6 +46,7 @@ const skillIconMap = {
   vscode: vscode,
   PostgreSQL: postgre,
   "C++": ceepeepee,
+  "Embedded systems": circuit,
 
   Java: java,
   C: c,
@@ -50,10 +57,10 @@ const skillIconMap = {
   Docker: docker,
   Tailwind: tailwind,
   Redux: redux,
+  API: api,
 
   Rust: rust,
-  Deno: deno,
-  Next: next,
+  ML: ml,
 };
 
 const CardLearning = ({ skill }) => {

@@ -70,7 +70,7 @@ const Media = () => {
         <div className="flex gap-4">
           <div className="flex gap-4">
             <a
-              href="https://drive.google.com/file/d/1mPmL2wlyacVfoS-0ZPEdhv9obLL0CfUD/view"
+              href="https://drive.google.com/file/d/1MJRZE_Ztko25nCj6u9T_cDRx6insK8aN/view?usp=sharing"
               download="CV-EmreBasboga.pdf"
               className="mt-3"
               rel="noopener noreferrer"
@@ -78,7 +78,7 @@ const Media = () => {
               <FaDownload style={iconStyle} />
             </a>
             <a
-              href="https://drive.google.com/file/d/1mPmL2wlyacVfoS-0ZPEdhv9obLL0CfUD/view"
+              href="https://drive.google.com/file/d/1MJRZE_Ztko25nCj6u9T_cDRx6insK8aN/view?usp=sharing"
               download="CV-EmreBasboga.pdf"
               className="lg:pb-10 hover:text-designColor"
               target="_blank"

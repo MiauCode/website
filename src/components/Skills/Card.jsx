@@ -29,6 +29,9 @@ import atmel from "../../assets/icons/atmel.png";
 import jest from "../../assets/icons/jest.png";
 import matlab from "../../assets/icons/matlab.png";
 import ceepeepee from "../../assets/icons/ceepeepee.png";
+import api from "../../assets/icons/api.png";
+import ml from "../../assets/icons/ml.png"
+import circuit from "../../assets/icons/circuit-board.png"
 
 const skillIconMap = {
   Python: python,
@@ -41,8 +44,11 @@ const skillIconMap = {
   Git: git,
   Typescript: ts,
   vscode: vscode,
+  "Android Studio": androidstudio,
   PostgreSQL: postgre,
   "C++": ceepeepee,
+  API: api,
+  "Next.js": next,
 
   Java: java,
   C: c,
@@ -54,6 +60,7 @@ const skillIconMap = {
   Tailwind: tailwind,
   Redux: redux,
   Linux: linux,
+  "Embedded systems": circuit,
 
   Rust: rust,
   Deno: deno,
@@ -61,6 +68,7 @@ const skillIconMap = {
   "Atmel studio": atmel,
   Jest: jest,
   Matlab: matlab,
+  ML: ml,
 };
 
 const Card = ({ skill }) => {

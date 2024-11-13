@@ -5,12 +5,12 @@ import Media from "./Media";
 const LeftBanner = () => {
   const [text] = useTypewriter({
     words: [
-      "A full stack developer. ",
+      "A software developer. ",
       "A computer science student. ",
-      "A Dallas Maverics fan.",
+      "A Los Angeles Lakers fan. ",
       "An avid gym goer. ",
-      "A full-time nerd.",
-      "A Bayern München enjoyer.",
+      "A full-time nerd. ",
+      "A Bayern München enjoyer. ",
     ],
     loop: true,
     typeSpeed: 20,

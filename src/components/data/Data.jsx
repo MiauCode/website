@@ -10,6 +10,7 @@ import {
 } from "react-icons/fa";
 
 import { MdWebhook, MdConnectWithoutContact } from "react-icons/md";
+import { GiCircuitry } from "react-icons/gi";
 
 export const navLinksdata = [
   {
@@ -188,7 +189,19 @@ export const mostUsed = [
 
 export const someExperience = [
   {
-    
+  id: 15,
+  name: "API",
+  confidence: 70,
+  where:
+    "Using different types of API's (mainly openapi) for projects at work, school and on my freetime",
+  },
+  {
+    id: 2,
+    name: "Next.js",
+    confidence: 40,
+    where: "In different projects",
+  },
+  {
     id: 2,
     name: "React",
     confidence: 50,
@@ -263,7 +276,8 @@ export const someExperience = [
   {
     id: 4,
     name: "ML",
-    why: "I know the basics of Machine learning and know how to use and integrate API's",
+    confidence: 40,
+    where: "I know the basics of Machine learning and know how to use and integrate API's",
   },
 ];
 
@@ -281,12 +295,6 @@ export const learning = [
     why: "I want to learn how to create more complex websites and apps",
   },
   {
-    id: 4,
-    name: "Node",
-    skill: 30,
-    why: "I want to learn how to create more complex websites and apps",
-  },
-  {
     id: 6,
     name: "Java",
     why: "I am learning Java as a part of my current OOP course",
@@ -295,14 +303,14 @@ export const learning = [
 
 export const wantingToLean = [
   {
+    id: 10,
+    name: "Embedded systems",
+    why: "I want to develope my career towards embedded systems",
+  },
+  {
     id: 1,
     name: "Rust",
     why: "I have heard a lot of good things about Rust and want to learn it",
-  },
-  {
-    id: 2,
-    name: "Python",
-    why: "I want to deepen my previous knowledge of Python",
   },
 ];
 
