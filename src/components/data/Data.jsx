@@ -375,6 +375,10 @@ export const projects = [
         name: "TailwindCSS",
         color: "red-600",
       },
+      {
+        name: "Machine Learning",
+        color: "red-600",
+      },
     ],
     img: "https://i.ibb.co/XWrHknw/vm3.png",
     code: "https://github.com/temevh/valuework",
