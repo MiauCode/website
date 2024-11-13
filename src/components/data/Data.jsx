@@ -161,16 +161,68 @@ export const testimonials = [
 
 export const mostUsed = [
   {
+    id: 0,
+    name: "Python",
+    confidence: 80,
+    where: "On school courses and some personal projects",
+  },
+  {
+    id: 6,
+    name: "C++",
+    confidence: 80,
+    where: "I have used C++ for my own and embedded systems projects",
+  },
+  {
+    id: 9,
+    name: "Git",
+    confidence: 70,
+    where: "Go-to version control system for all projects",
+  },
+  {
+    id: 11,
+    name: "vscode",
+    confidence: 100,
+    where: "My go-to code editor for all projects",
+  },
+];
+
+export const someExperience = [
+  {
+    
     id: 2,
     name: "React",
-    confidence: 75,
+    confidence: 50,
     where: "In different projects",
   },
   {
     id: 3,
     name: "Javascript",
-    confidence: 60,
+    confidence: 50,
     where: "During personal projects",
+  },
+  {
+    id: 5,
+    name: "Tailwind",
+    confidence: 30,
+    where: "Creating this website",
+  },
+  {
+    id: 6,
+    name: "Node",
+    confidence: 35,
+    where: "With some projects",
+  },
+  {
+    id: 7,
+    name: "MongoDb",
+    confidence: 70,
+    where: "Alongside work projects",
+  },
+  {
+    id: 10,
+    name: "Typescript",
+    confidence: 35,
+    where: "Using alongside React",
   },
   {
     id: 4,
@@ -185,49 +237,10 @@ export const mostUsed = [
     where: "Suring personal projects, some school projects",
   },
   {
-    id: 6,
-    name: "Node",
-    confidence: 35,
-    where: "With some projects",
-  },
-  {
-    id: 9,
-    name: "Git",
-    confidence: 70,
-    where: "Go-to version control system for all projects",
-  },
-  {
-    id: 10,
-    name: "Typescript",
-    confidence: 35,
-    where: "Using alongside React",
-  },
-  {
-    id: 11,
-    name: "vscode",
-    confidence: 100,
-    where: "My go-to code editor for all projects",
-  },
-];
-
-export const someExperience = [
-  {
-    id: 0,
-    name: "Python",
-    confidence: 60,
-    where: "On a few school courses and some personal projects",
-  },
-  {
     id: 1,
     name: "Java",
     confidence: 40,
     where: "During an OOP course at school",
-  },
-  {
-    id: 5,
-    name: "Tailwind",
-    confidence: 30,
-    where: "Creating this website",
   },
   {
     id: 7,
@@ -238,20 +251,19 @@ export const someExperience = [
   {
     id: 10,
     name: "Linux",
-    confidence: 40,
+    confidence: 30,
     where: "While using virtual machines for different purposes",
   },
   {
     id: 14,
     name: "Matlab",
-    confidence: 30,
+    confidence: 40,
     where: "Some basic calculations and operations",
   },
   {
-    id: 6,
-    name: "C++",
-    confidence: 50,
-    where: "I have used C++ for embedded systems projects",
+    id: 4,
+    name: "ML",
+    why: "I know the basics of Machine learning and know how to use and integrate API's",
   },
 ];
 
@@ -274,12 +286,6 @@ export const learning = [
     skill: 30,
     why: "I want to learn how to create more complex websites and apps",
   },
-
-  {
-    id: 6,
-    name: "Python",
-    why: "I use Python to implement graph algorithms as a part of a course",
-  },
   {
     id: 6,
     name: "Java",
@@ -301,6 +307,12 @@ export const wantingToLean = [
 ];
 
 export const certificates = [
+  {
+    name: "Junction hackathon",
+    year: 2024,
+    description:
+      "I participated in a hackathon with a few of my friends and created a working full-stack app",
+  },
   {
     name: "Cyber security base",
     year: 2024,
@@ -343,18 +355,31 @@ export const achievements = [
 ];
 
 export const projects = [
-  /*{
-    title: "React review app",
-    desc: "An app that lets the user add, review, search and edit books. The app is built around a carousel menu where the books are displayed. The app utilizes local storage to save the books and their reviews.",
+  {
+    title: "Valuemap",
+    desc: "Valuemap matches job seekers with companies based on shared values, believes and needs. Made for Junction hackathon 2024 ",
     tags: [
       {
         name: "ReactJs",
         color: "red-600",
       },
+      {
+        name: "NextJs",
+        color: "red-600",
+      },
+      {
+        name: "MongoDB",
+        color: "red-600",
+      },
+      {
+        name: "TailwindCSS",
+        color: "red-600",
+      },
     ],
-    img: "https://user-images.githubusercontent.com/37696410/212696470-7da86ac0-c80c-4921-99df-e725be4b3a27.png",
-    code: "https://github.com/temevh/react-review-app",
-  },
+    img: "https://i.ibb.co/XWrHknw/vm3.png",
+    code: "https://github.com/temevh/valuework",
+  }
+  /*
   {
     title: "Hash table utilizing linked list",
     desc: "A fairly straightforward hash table utilizing linked list. The hash table is made to be able to handle collisions and it is made to be able to handle and match a large amount of data.",
