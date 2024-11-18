@@ -4,7 +4,7 @@ import { navLinksdata } from "./data/Data";
 
 const TopNav = () => {
   return (
-    <div className="w-full h-20 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600 pr-4 pl-4">
+    <div className="w-full h-20 sticky top-0 z-50 bg-white w-full bg-opacity-60 backdrop-blur-md mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600 px-4">
       <div className="flex items-center">
         <p className="font-bold text-5xl">EB</p>
       </div>
@@ -23,7 +23,9 @@ const TopNav = () => {
                 offset={-70}
                 duration={500}
               >
-                {title}
+                <div className="px-4 py-2 rounded-md bg-white bg-opacity-70 hover:bg-opacity-90 shadow-md">
+                  {title}
+                </div>
               </Link>
             </li>
           ))}

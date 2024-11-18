@@ -1,4 +1,3 @@
-/** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
@@ -18,14 +17,17 @@ module.exports = {
         titleFont: ["Montserrat", "sans-serif"],
       },
       colors: {
-        bodyColor: "#F1F8E8",
+        bodyColor: "#EEF5FF",
         lightText: "#222831",
         boxBg: "linear-gradient(145deg, #55AD9B, #95D2B3)",
         designColor: "#55AD9B",
         titleColor: "#222831",
       },
       boxShadow: {
-        shadowOne: "5px 5px 19px #D8EFD3, -5px -5px 19px #D8EFD3",
+        shadowOne: "5px 5px 10px #C0D6E8, -5px -5px 10px #C0D6E8",
+      },
+      backgroundImage: {
+        hero: "url('../public/back_image2.png')",
       },
     },
   },
