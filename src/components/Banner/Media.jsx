@@ -6,6 +6,7 @@ import {
   FaDownload,
 } from "react-icons/fa";
 import { SiGithub, SiInstagram } from "react-icons/si";
+
 const Media = () => {
   return (
     <div className="flex flex-col xl:flex-row gap-6 lg:gap-0 justify-between">
@@ -94,7 +95,7 @@ const Media = () => {
 };
 
 const iconStyle = {
-  color: "#55AD9B",
+  color: "#222831",
 };
 
 export default Media;
