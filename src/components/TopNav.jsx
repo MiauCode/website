@@ -4,9 +4,9 @@ import { navLinksdata } from "./data/Data";
 
 const TopNav = () => {
   return (
-    <div className="w-full h-20 sticky top-0 z-50 bg-white w-full bg-opacity-60 backdrop-blur-md mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600 px-4">
-      <div className="flex items-center">
-        <p className="font-bold text-5xl">EB</p>
+    <div className="w-full h-20 sticky top-0 z-50 bg-white w-full bg-opacity-30 backdrop-blur-md mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600 px-4">
+      <div className="flex items-center pl-5 pr-5">
+      <img src="/eb_logo2.png" alt="EB Logo" className="h-14" />
       </div>
       <div className="md:flex items-center justify-end gap-1 lg:gap-4">
         <ul className="hidden md:inline-flex items-center gap-1 lg:gap-4">

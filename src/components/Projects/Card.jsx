@@ -10,7 +10,7 @@ export default function Card({ title, desc, tags, code, img }) {
       }}
       className="bg-[#0b212d]  rounded-2xl max-w-[362px]  h-full"
     >
-      <div className="bg-bodyColor shadow-shadowOne  w-full h-full rounded-2xl p-4 flex flex-col justify-between transform hover:shadow-xl hover:-translate-y-1 hover:shadow-designColor/100">
+      <div className="bg-bodyColor shadow-shadowOne  w-full h-full rounded-2xl p-4 flex flex-col justify-between transform hover:shadow-xl hover:-translate-y-1 hover:shadow-[#C0D6E8]">
         <div>
           <div className="relative w-full rounded-2xl">
             <img
@@ -37,7 +37,7 @@ export default function Card({ title, desc, tags, code, img }) {
           {tags.map((tag) => (
             <p
               key={tag.name}
-              className={`font-medium text-white py-0.5 px-1 bg-[#55ad9b] rounded-sm shadow`}
+              className={`font-medium text-white py-0.5 px-1 bg-[#7C93C3] rounded-sm shadow`}
             >
               {tag.name}
             </p>

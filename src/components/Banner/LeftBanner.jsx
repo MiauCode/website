@@ -29,7 +29,7 @@ const LeftBanner = () => {
           <span className="text-designColor capitalize"> Emre Basboga</span>
         </h1>
         <div className="text-4xl font-bold text-titleColor max-w-full overflow-hidden h-24">
-          <span style={{color: "#891652"}}>{text}</span>
+          <span style={{color: "#B5D8F5"}}>{text}</span>
           <Cursor
             cursorBlinking="true"
             cursorStyle="|"

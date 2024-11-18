@@ -11,7 +11,7 @@ const Footer = () => {
         href="https://github.com/MiauCode/website/tree/main"
       >
         Click{" "}
-        <b style={{ color: "#ff8439" }}>
+        <b style={{ color: "#55ad9b" }}>
           {" "}
           {""}
           here

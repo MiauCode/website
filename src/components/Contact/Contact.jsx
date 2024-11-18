@@ -4,7 +4,7 @@ import ContactLeft from "./ContactLeft";
 const Contact = () => {
   return (
     <section id="contact" className="w-full py-4 border-b-[1px] border-b-black">
-      <h1 className="text-center text-3xl pb-4 text-[#891652]">
+      <h1 className="text-center text-3xl pb-4 text-textColor">
         <b>If you feel like I would be a good fit for your team!</b>
       </h1>
       <div className="w-full">

@@ -13,7 +13,7 @@ const Certificates = () => {
           <li class="pb-3 pt-3 sm:pb-4">
             <div class="flex items-center space-x-4 pb-2">
               <div class="flex-1 min-w-0">
-                <p class="text-lg font-bold font-titleFont text-designColor">
+                <p class="text-lg font-bold font-titleFont text-textColor">
                   {certificate.name}
                 </p>
                 <p class="text-md ">{certificate.description}</p>

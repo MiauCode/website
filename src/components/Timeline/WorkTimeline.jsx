@@ -57,7 +57,7 @@ const WorkTimeLine = () => {
                 )}
               </TimelineSeparator>
               <TimelineContent sx={{ py: "12px", px: 2 }}>
-                <h3 className="text-xl font-bold font-titleFont text-designColor">
+                <h3 className="text-xl font-bold font-titleFont text-textColor">
                   {item.title}
                 </h3>
                 <p className="text-md italic text-black">
