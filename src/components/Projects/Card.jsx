@@ -1,5 +1,6 @@
 import Tilt from "react-parallax-tilt";
 import { FaGithub } from "react-icons/fa";
+
 export default function Card({ title, desc, tags, code, img }) {
   return (
     <Tilt
@@ -8,9 +9,9 @@ export default function Card({ title, desc, tags, code, img }) {
         scale: 1,
         speed: 450,
       }}
-      className="bg-[#0b212d]  rounded-2xl max-w-[362px]  h-full"
+      className="bg-[#0b212d] rounded-2xl max-w-[362px] h-full"
     >
-      <div className="bg-bodyColor shadow-shadowOne  w-full h-full rounded-2xl p-4 flex flex-col justify-between transform hover:shadow-xl hover:-translate-y-1 hover:shadow-[#C0D6E8]">
+      <div className="bg-bodyColor shadow-shadowOne w-full h-full rounded-2xl p-4 flex flex-col justify-between transform hover:shadow-xl hover:-translate-y-1 hover:shadow-[#C0D6E8]">
         <div>
           <div className="relative w-full rounded-2xl">
             <img
@@ -21,9 +22,10 @@ export default function Card({ title, desc, tags, code, img }) {
             <div className="absolute inset-0 flex justify-end m-3 ">
               <div
                 onClick={() => window.open(code, "_blank")}
-                className="bg-slate-800 w-9 h-9 rounded-full border-[1px] border-secondary flex items-center justify-center cursor-pointer "
+                className="bg-slate-800 w-10 h-10 rounded-full border-[1px] border-secondary flex items-center justify-center cursor-pointer text-[#55ad9b]"
               >
-                <FaGithub />
+                {/* Increased the size of the icon with text-3xl */}
+                <FaGithub className="text-3xl text-[#55ad9b] hover:text-[#C0D6E8]" />
               </div>
             </div>
           </div>
