@@ -18,18 +18,28 @@ const LeftBanner = () => {
     delaySpeed: 2000,
   });
 
+  // Replace specific words with colored versions
+  const formattedText = text
+    .replace(/Los Angeles/g, '<span style="color: #fdba22">Los Angeles</span>')
+    .replace(/Lakers/g, '<span style="color: #2d0070">Lakers</span>') // Lakers in purple
+    .replace(/Bayern/g, '<span style="color: #ed0037">Bayern</span>') // Bayern Munich in red
+    .replace(/München/g, '<span style="color: #286cfc">München</span>');
+
   return (
     <div className="w-full lgl:w-1/2 flex flex-col gap-20">
       <div className="flex flex-col gap-5">
         <h4 className="text-lg font-normal">Hi! </h4>
         <h1 className="text-5xl font-bold text-titleColor lg:text-6xl">
           My name is
-          </h1>
-          <h1 className="text-5xl font-bold text-white lg:text-6xl">
+        </h1>
+        <h1 className="text-5xl font-bold text-white lg:text-6xl">
           <span className="text-designColor capitalize"> Emre Basboga</span>
         </h1>
         <div className="text-4xl font-bold text-titleColor max-w-full overflow-hidden h-24">
-          <span style={{color: "#B5D8F5"}}>{text}</span>
+          <span
+            className="text-4xl font-bold text-titleColor"
+            dangerouslySetInnerHTML={{ __html: formattedText }}
+          />
           <Cursor
             cursorBlinking="true"
             cursorStyle="|"

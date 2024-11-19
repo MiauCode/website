@@ -15,49 +15,54 @@ const Media = () => {
           Find me on
         </h2>
         <div className="flex gap-4">
-          <span className="bannerIcon">
+          <span className="bannerIcon hover:bg-gray-600 p-2 rounded-40">
             <a
               href="https://github.com/miaucode"
               target="_blank"
               rel="noopener noreferrer"
+              className="hover:text-white transition-colors duration-300"
             >
               <SiGithub style={iconStyle} />
             </a>
           </span>
-          {/* 
-          <span className="bannerIcon">
+          { 
+          <span className="bannerIcon hover:bg-gray-600 p-2 rounded-40">
             <a
-              href="https://instagram.com/titeemu"
+              href="https://www.instagram.com/emrererme/"
               target="_blank"
               rel="noopener noreferrer"
+              className="hover:text-white transition-colors duration-300"
             >
               <SiInstagram style={iconStyle} />
             </a>
           </span>
-          */}
-          <span className="bannerIcon">
+          }
+          <span className="bannerIcon hover:bg-gray-600 p-2 rounded-40">
             <a
               href="https://www.linkedin.com/in/emre-basboga"
               target="_blank"
               rel="noopener noreferrer"
+              className="hover:text-white transition-colors duration-300"
             >
               <FaLinkedinIn style={iconStyle} />
             </a>
           </span>
-          <span className="bannerIcon">
+          <span className="bannerIcon hover:bg-gray-600 p-2 rounded-40">
             <a
               href="https://t.me/Basboga"
               target="_blank"
               rel="noopener noreferrer"
+              className="hover:text-white transition-colors duration-300"
             >
               <FaTelegram style={iconStyle} />
             </a>
           </span>
-          <span className="bannerIcon">
+          <span className="bannerIcon hover:bg-gray-600 p-2 rounded-40">
             <a
               href="https://www.discordapp.com/users/oup1/"
               target="_blank"
               rel="noopener noreferrer"
+              className="hover:text-white transition-colors duration-300"
             >
               <FaDiscord style={iconStyle} />
             </a>
@@ -73,7 +78,7 @@ const Media = () => {
             <a
               href="https://drive.google.com/file/d/1MJRZE_Ztko25nCj6u9T_cDRx6insK8aN/view?usp=sharing"
               download="CV-EmreBasboga.pdf"
-              className="mt-3"
+              className="mt-3 hover:bg-gray-600 p-2 rounded-full hover:text-white transition-colors duration-300"
               rel="noopener noreferrer"
             >
               <FaDownload style={iconStyle} />
@@ -81,7 +86,7 @@ const Media = () => {
             <a
               href="https://drive.google.com/file/d/1MJRZE_Ztko25nCj6u9T_cDRx6insK8aN/view?usp=sharing"
               download="CV-EmreBasboga.pdf"
-              className="lg:pb-10 hover:text-designColor"
+              className="lg:pb-10 hover:bg-gray-600 p-2 rounded-full hover:text-white transition-colors duration-300"
               target="_blank"
               rel="noopener noreferrer"
             >

@@ -2,7 +2,7 @@ import React from "react";
 
 const Card = ({ item: { title, des, icon } }) => {
   return (
-    <div className="w-full px-8 py-6 rounded-lg shadow-shadowOne flex items-start bg-[#eef5ff] group">
+    <div className="w-full px-8 py-6 rounded-lg shadow-shadowOne flex items-start bg-[#eef5ff] group transition-transform duration-300 ease-in-out hover:scale-105">
       <div className="h-70 overflow-y-hidden">
         <div className="flex flex-col gap-6 transition-transform duration-500">
           <div className="w-8 h-6 flex flex-col justify-between">
