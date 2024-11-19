@@ -15,56 +15,47 @@ const Media = () => {
           Find me on
         </h2>
         <div className="flex gap-4">
-          <span className="bannerIcon hover:bg-gray-600 p-2 rounded-40">
+          <span className="bannerIcon group hover:bg-gray-600 p-2 rounded-40">
             <a
               href="https://github.com/miaucode"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-white transition-colors duration-300"
+              className="group-hover:text-white transition-colors duration-300"
             >
-              <SiGithub style={iconStyle} />
+              <SiGithub className="text-3xl text-[#222831] group-hover:text-white" />
             </a>
           </span>
-          { 
-          <span className="bannerIcon hover:bg-gray-600 p-2 rounded-40">
-            <a
-              href="https://www.instagram.com/emrererme/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-white transition-colors duration-300"
-            >
-              <SiInstagram style={iconStyle} />
-            </a>
-          </span>
-          }
-          <span className="bannerIcon hover:bg-gray-600 p-2 rounded-40">
+
+          <span className="bannerIcon group hover:bg-gray-600 p-2 rounded-40">
             <a
               href="https://www.linkedin.com/in/emre-basboga"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-white transition-colors duration-300"
+              className="group-hover:text-white transition-colors duration-300"
             >
-              <FaLinkedinIn style={iconStyle} />
+              <FaLinkedinIn className="text-3xl text-[#222831] group-hover:text-white" />
             </a>
           </span>
-          <span className="bannerIcon hover:bg-gray-600 p-2 rounded-40">
+
+          <span className="bannerIcon group hover:bg-gray-600 p-2 rounded-40">
             <a
               href="https://t.me/Basboga"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-white transition-colors duration-300"
+              className="group-hover:text-white transition-colors duration-300"
             >
-              <FaTelegram style={iconStyle} />
+              <FaTelegram className="text-3xl text-[#222831] group-hover:text-white" />
             </a>
           </span>
-          <span className="bannerIcon hover:bg-gray-600 p-2 rounded-40">
+
+          <span className="bannerIcon group hover:bg-gray-600 p-2 rounded-40">
             <a
               href="https://www.discordapp.com/users/oup1/"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-white transition-colors duration-300"
+              className="group-hover:text-white transition-colors duration-300"
             >
-              <FaDiscord style={iconStyle} />
+              <FaDiscord className="text-3xl text-[#222831] group-hover:text-white" />
             </a>
           </span>
         </div>
@@ -78,15 +69,15 @@ const Media = () => {
             <a
               href="https://drive.google.com/file/d/1MJRZE_Ztko25nCj6u9T_cDRx6insK8aN/view?usp=sharing"
               download="CV-EmreBasboga.pdf"
-              className="mt-3 hover:bg-gray-600 p-2 rounded-full hover:text-white transition-colors duration-300"
+              className="mt-3"
               rel="noopener noreferrer"
             >
-              <FaDownload style={iconStyle} />
+              <FaDownload className="text-2xl text-[#222831] group-hover:text-white" />
             </a>
             <a
               href="https://drive.google.com/file/d/1MJRZE_Ztko25nCj6u9T_cDRx6insK8aN/view?usp=sharing"
               download="CV-EmreBasboga.pdf"
-              className="lg:pb-10 hover:bg-gray-600 p-2 rounded-full hover:text-white transition-colors duration-300"
+              className="lg:pb-10 hover:text-designColor"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -97,10 +88,6 @@ const Media = () => {
       </div>
     </div>
   );
-};
-
-const iconStyle = {
-  color: "#222831",
 };
 
 export default Media;
