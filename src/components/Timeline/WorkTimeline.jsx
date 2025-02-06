@@ -17,6 +17,7 @@ import {
   FaSocks,
   FaPizzaSlice,
   FaWineGlassAlt,
+  FaLaptopCode,
 } from "react-icons/fa";
 import { workItems } from "../data/Data";
 
@@ -50,6 +51,7 @@ const WorkTimeLine = () => {
                   {item.icon == "FaWineGlassAlt" ? <FaWineGlassAlt /> : null}
                   {item.icon == "FaBriefcase" ? <FaBriefcase /> : null}
                   {item.icon == "FaTruck" ? <FaTruck /> : null}
+                  {item.icon == "FaLaptopCode" ? <FaLaptopCode /> : null}
                   
                 </TimelineDot>
                 {item.workPlace === "Dalaman" ? null : (

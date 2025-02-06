@@ -142,6 +142,13 @@ export const workItems = [
     date: "2022",
     icon: "FaTruck",
   },
+  {
+    workPlace: "Lahden Seudun Pool ry",
+    title: "Full-stack developer",
+    subtitle: "<In progress> Developing a web platform for the club",
+    date: "2024 - 2025",
+    icon: "FaLaptopCode",
+  },
 ];
 
 export const testimonials = [
@@ -360,6 +367,12 @@ export const achievements = [
     description:
       "I was chosen as the treasurer of the overall team for the computer science students of Tampere University",
   },
+  {
+    name: "TiTe guild master",
+    year: 2024,
+    description:
+      "I was chosen as the guild master for the computer science students of Tampere University",
+  },
 ];
 
 export const projects = [
@@ -390,112 +403,5 @@ export const projects = [
     ],
     img: "https://i.ibb.co/XWrHknw/vm3.png",
     code: "https://github.com/temevh/valuework",
-  }
-  /*
-  {
-    title: "Hash table utilizing linked list",
-    desc: "A fairly straightforward hash table utilizing linked list. The hash table is made to be able to handle collisions and it is made to be able to handle and match a large amount of data.",
-    tags: [
-      {
-        name: "Python",
-        color: "red-600",
-      },
-      {
-        name: "DSA",
-        color: "green-600",
-      },
-      {
-        name: "Hashing",
-        color: "yellow-600",
-      },
-    ],
-    img: "https://www.ekreative.com/wp-content/uploads/2021/03/pankaj-patel-_SgRNwAVNKw-unsplash.jpg",
-    code: "https://github.com/temevh/Algorithms-and-data-structures/tree/master/Assingment",
   },
-  {
-    title: "Arduino alarm system",
-    desc: "A fairly complex alarm system made with two Arduino boards which are connected with USART. The movement sensor waits for movements and triggers an alarm protocol when triggered",
-    tags: [
-      {
-        name: "C",
-        color: "red-600",
-      },
-      {
-        name: "Arduino",
-        color: "green-600",
-      },
-      {
-        name: "Atmel studio",
-        color: "yellow-600",
-      },
-    ],
-    img: "https://user-images.githubusercontent.com/96690178/259686989-b7ab8e2d-f22a-4dca-803c-aca4170e6632.jpg",
-    code: "https://github.com/temevh/Arduino-AlarmSystem/tree/main",
-  },
-
-  {
-    title: "Outhere",
-    desc: "A mobile app made with Dart and Flutter which gives the user a task to complete every day. Goal is for the user to improve in one category every day (for example sociability, learning or concentration). Very much still a work in progress!",
-    tags: [
-      {
-        name: "Dart",
-        color: "red-600",
-      },
-      {
-        name: "Flutter",
-        color: "green-600",
-      },
-      {
-        name: "Mobile",
-        color: "blue-800",
-      },
-    ],
-    img: "https://user-images.githubusercontent.com/96690178/264060743-53ccea43-4be3-426c-9f78-1f6a67245932.jpg",
-    code: "https://github.com/temevh/outhere/tree/main",
-  },
-  {
-    title: "Wherewolf",
-    desc: "A first person game made with Godot. In the game the player has to either save or kill the villagers of a small town, depending on the time of day. The game was made for Finnish Game Jam 2022. My main task was creating the assets/graphics.",
-    tags: [
-      {
-        name: "Godot",
-        color: "red-600",
-      },
-      {
-        name: "GAP",
-        color: "green-600",
-      },
-      {
-        name: "Game",
-        color: "yellow-600",
-      },
-    ],
-    img: "https://ggj.s3.amazonaws.com/styles/game_content__wide/games/screenshots/2022/01/138869/nayttokuva_154.png?itok=JMBNCLa2&timestamp=1643543481",
-    code: "https://github.com/temevh/fgj2022",
-  },
-  {
-    title: "Maltas data dashboard",
-    desc: "A full-stack dashboard application for healthcare professionals. The dashboard shows data related to the hand washing in a selected unit (hospital, operating room etc.)",
-    tags: [
-      {
-        name: "React",
-        color: "red-600",
-      },
-      {
-        name: "Typescript",
-        color: "green-600",
-      },
-      {
-        name: "Node",
-        color: "yellow-600",
-      },
-      {
-        name: "Next.js",
-        color: "yellow-600",
-      },
-    ],
-    img: "https://monday.com/blog/wp-content/uploads/2022/03/Untitled-188.png",
-    code: "https://github.com/PROJ-A2023-G08/maltas-data-dashboard",
-  },
-  */
 ];
