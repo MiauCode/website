@@ -183,7 +183,7 @@ export const mostUsed = [
   {
     id: 9,
     name: "Git",
-    confidence: 70,
+    confidence: 80,
     where: "Go-to version control system for all projects",
   },
   {
@@ -192,44 +192,45 @@ export const mostUsed = [
     confidence: 100,
     where: "My go-to code editor for all projects",
   },
+  {
+    id: 15,
+    name: "API",
+    confidence: 70,
+    where:
+      "Using different types of API's (mainly openapi) for projects at work, school and on my freetime",
+    },
+    {
+      id: 2,
+      name: "Next.js",
+      confidence: 60,
+      where: "In different projects",
+    },
+    {
+      id: 2,
+      name: "React",
+      confidence: 70,
+      where: "In different projects",
+    },
+    {
+      id: 3,
+      name: "Javascript",
+      confidence: 70,
+      where: "During personal projects",
+    },
+    {
+      id: 5,
+      name: "Tailwind",
+      confidence: 100,
+      where: "Creating this website",
+    },
 ];
 
 export const someExperience = [
-  {
-  id: 15,
-  name: "API",
-  confidence: 70,
-  where:
-    "Using different types of API's (mainly openapi) for projects at work, school and on my freetime",
-  },
-  {
-    id: 2,
-    name: "Next.js",
-    confidence: 40,
-    where: "In different projects",
-  },
-  {
-    id: 2,
-    name: "React",
-    confidence: 50,
-    where: "In different projects",
-  },
-  {
-    id: 3,
-    name: "Javascript",
-    confidence: 50,
-    where: "During personal projects",
-  },
-  {
-    id: 5,
-    name: "Tailwind",
-    confidence: 30,
-    where: "Creating this website",
-  },
+
   {
     id: 6,
     name: "Node",
-    confidence: 35,
+    confidence: 60,
     where: "With some projects",
   },
   {
@@ -247,13 +248,13 @@ export const someExperience = [
   {
     id: 4,
     name: "Html",
-    confidence: 60,
+    confidence: 100,
     where: "During personal projects, some school projects",
   },
   {
     id: 5,
     name: "CSS",
-    confidence: 60,
+    confidence: 90,
     where: "Suring personal projects, some school projects",
   },
   {
@@ -290,12 +291,6 @@ export const someExperience = [
 
 export const learning = [
   {
-    id: 2,
-    name: "Tailwind",
-    skill: 30,
-    why: "I want to learn how to create stylish websites",
-  },
-  {
     id: 3,
     name: "React",
     skill: 30,
@@ -318,6 +313,11 @@ export const wantingToLean = [
     id: 1,
     name: "Rust",
     why: "I have heard a lot of good things about Rust and want to learn it",
+  },
+  {
+    id: 1,
+    name: "C",
+    why: "One of the most important languages in the world. I want to learn it",
   },
 ];
 
@@ -349,6 +349,12 @@ export const certificates = [
 ];
 
 export const achievements = [
+  {
+    name: "Koja hackathon 2nd place",
+    year: 2025,
+    description:
+      "I participated in a hackathon with a few of my friends and created a working 3D-simulation webapplication",
+  },
   {
     name: "Platinum in Valorant",
     year: 2023,
