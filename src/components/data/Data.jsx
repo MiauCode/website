@@ -410,4 +410,32 @@ export const projects = [
     img: "https://i.ibb.co/XWrHknw/vm3.png",
     code: "https://github.com/temevh/valuework",
   },
+  {
+    title: "Saloon manager",
+    desc: "Saloon manager is a python software that helps you manage your saloon. It has features like customer management, rentable items mangement. You can easily run a small saloon with this software.",
+    tags: [
+      {
+        name: "ReactJs",
+        color: "red-600",
+      },
+      {
+        name: "NextJs",
+        color: "red-600",
+      },
+      {
+        name: "MongoDB",
+        color: "red-600",
+      },
+      {
+        name: "TailwindCSS",
+        color: "red-600",
+      },
+      {
+        name: "Machine Learning",
+        color: "red-600",
+      },
+    ],
+    img: "https://i.ibb.co/KjTSbL9G/Screenshot-2025-06-29-194925.png",
+    code: "https://github.com/MiauCode/saloon-manager",
+  },
 ];
